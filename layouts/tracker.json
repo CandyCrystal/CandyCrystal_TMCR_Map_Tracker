@@ -91,23 +91,15 @@
                         "dock": "top",
                         "tabs": [{
                                 "title": "Overworld",
-                                "icon": "images/icon-maps/Four Sword.png",
+                                "icon": "images/items/Four Sword.png",
                                 "content": {
                                     "type": "map",
                                     "maps": ["map"]
                                 }
                             },
                             {
-                                "title": "Melari's Mines",
-                                "icon": "images/icon-maps/Obscure_On.png",
-                                "content": {
-                                    "type": "map",
-                                    "maps": ["mines"]
-                                }
-                            },
-                            {
                                 "title": "Deepwood Shrine",
-                                "icon": "images/icon-maps/Gust Jar.png",
+                                "icon": "images/items/Gust Jar.png",
                                 "content": {
                                     "type": "map",
                                     "maps": ["dws"]
@@ -115,15 +107,23 @@
                             },
                             {
                                 "title": "Cave of Flames",
-                                "icon": "images/icon-maps/Cane of Pacci.png",
+                                "icon": "images/items/Cane of Pacci.png",
                                 "content": {
                                     "type": "map",
                                     "maps": ["cof"]
                                 }
                             },
                             {
+                                "title": "Melari's Mines",
+                                "icon": "images/options/Obscure_On.png",
+                                "content": {
+                                    "type": "map",
+                                    "maps": ["mines"]
+                                }
+                            },
+                            {
                                 "title": "Fortress of Winds",
-                                "icon": "images/icon-maps/Mole Mitts.png",
+                                "icon": "images/items/Mole Mitts.png",
                                 "content": {
                                     "type": "map",
                                     "maps": ["fow"]
@@ -131,7 +131,7 @@
                             },
                             {
                                 "title": "Temple of Droplets",
-                                "icon": "images/icon-maps/Lamp (Lit).png",
+                                "icon": "images/items/Lamp_lit.png",
                                 "content": {
                                     "type": "map",
                                     "maps": ["tod"]
@@ -139,7 +139,7 @@
                             },
                             {
                                 "title": "Royal Crypt",
-                                "icon": "images/icon-maps/Gold Kinstone (Falls).png",
+                                "icon": "images/items/veil_falls.png",
                                 "content": {
                                     "type": "map",
                                     "maps": ["rc"]
@@ -147,7 +147,7 @@
                             },
                             {
                                 "title": "Palace of Winds",
-                                "icon": "images/icon-maps/Roc's Cape.png",
+                                "icon": "images/items/Roc's Cape.png",
                                 "content": {
                                     "type": "map",
                                     "maps": ["pow"]
@@ -155,7 +155,7 @@
                             },
                             {
                                 "title": "Dark Hyrule Castle",
-                                "icon": "images/icon-maps/vaati.png",
+                                "icon": "images/items/vaati.png",
                                 "content": {
                                     "type": "map",
                                     "maps": ["dhc"]
