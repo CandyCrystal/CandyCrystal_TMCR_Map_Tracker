@@ -155,7 +155,7 @@
                             },
                             {
                                 "title": "Dark Hyrule Castle",
-                                "icon": "images/items/vaati.png",
+                                "icon": "images/dungeons/Vaati.png",
                                 "content": {
                                     "type": "map",
                                     "maps": ["dhc"]
