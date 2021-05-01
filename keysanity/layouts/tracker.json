@@ -1,0 +1,170 @@
+{
+    "shared_item_grid": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,1",
+        "rows": [
+            ["sword", "gust", "cane", "boomerang", "spinattack", "rockbreaker", "earth", "dwsx", "dws_bigkey", "dws_smallkey"],
+            ["shield", "mittsandfly", "lamp", "bombsremote", "fastspin", "dashattack", "fire", "cofx", "cof_bigkey", "cof_smallkey"],
+            ["boots", "cape", "flute", "bowandfly", "fastsplit", "downthrust", "water", "fowx", "fow_bigkey", "fow_smallkey"],
+            ["carlovtingle", "ringandbracelets", "flippersandfly", "wilds", "greatspin", "rollattack", "wind", "todx", "tod_bigkey", "tod_smallkey"],
+            ["books", "nutandshroom", "bothkeys", "clouds", "longspin", "swordbeam", "rcx", "powx", "pow_bigkey", "pow_smallkey"],
+            ["dogbottle", "10hearts", "wallet", "falls", "", "perilbeam", "cryptkey", "dhc", "dhc_bigkey", "explicit_dhc_smallkey"]
+        ]
+    },
+    "options_popup": {
+        "type": "group",
+        "header": "Settings",
+        "content": {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "1,2",
+            "rows": [
+                ["obscure_off", "fusions_open", "dhc_closed", "element4Needed", "sword5Needed", "rupees_off", "weapons_off"]
+            ]
+        }
+    },
+    "tracker_capture_item": {
+        "type": "container",
+        "content": {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "0,0,2,10",
+            "rows": [
+                ["sword", "gust", "cane", "boomerang", "wallet", "wilds"],
+                ["shield", "mitts", "lamp", "bombs", "remotebombs", "clouds"],
+                ["boots", "cape", "ocarina", "bow", "quiver", "falls"],
+                ["dogfood", "grip", "carlov", "jabber", "llrkey", "genericyellow"],
+                ["bottle", "bracelets", "trophy", "mushroom", "gravekey", "bigkey"],
+                ["10hearts", "heartpiece", "sevenscrolls", "flippers", "butterfly", "smallkey"],
+                ["earth", "fire", "water", "wind", "books", "figurine"]
+
+            ]
+        }
+    },
+    "tracker_default": {
+        "type": "container",
+        "background": "#877373",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [{
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content": [{
+                            "type": "group",
+                            "header": "Items",
+                            "h_alignment": "stretch",
+                            "dock": "top",
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#50877373",
+                                "layout": "options_popup"
+                            },
+                            "content": {
+                                "type": "layout",
+                                "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "width": 413,
+                            "dock": "top",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "width": 413,
+                                "v_alignment": "stretch",
+                                "orientation": "vertical",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "content": [{
+                        "type": "tabbed",
+                        "dock": "top",
+                        "tabs": [{
+                                "title": "Overworld",
+                                "icon": "images/items/Four Sword.png",
+                                "content": {
+                                    "type": "map",
+                                    "maps": ["map"]
+                                }
+                            },
+                            {
+                                "title": "Melari's Mines",
+                                "icon": "images/icon-maps/Obscure_On.png",
+                                "content": {
+                                    "type": "map",
+                                    "maps": ["mines"]
+                                }
+                            },
+                            {
+                                "title": "Deepwood Shrine",
+                                "icon": "images/items/Gust Jar.png",
+                                "content": {
+                                    "type": "map",
+                                    "maps": ["dws"]
+                                }
+                            },
+                            {
+                                "title": "Cave of Flames",
+                                "icon": "images/items/Cane of Pacci.png",
+                                "content": {
+                                    "type": "map",
+                                    "maps": ["cof"]
+                                }
+                            },
+                            {
+                                "title": "Fortress of Winds",
+                                "icon": "images/items/Mole Mitts.png",
+                                "content": {
+                                    "type": "map",
+                                    "maps": ["fow"]
+                                }
+                            },
+                            {
+                                "title": "Temple of Droplets",
+                                "icon": "images/items/Lamp_lit.png",
+                                "content": {
+                                    "type": "map",
+                                    "maps": ["tod"]
+                                }
+                            },
+                            {
+                                "title": "Royal Crypt",
+                                "icon": "images/items/veil_falls.png",
+                                "content": {
+                                    "type": "map",
+                                    "maps": ["rc"]
+                                }
+                            },
+                            {
+                                "title": "Palace of Winds",
+                                "icon": "images/items/Roc's Cape.png",
+                                "content": {
+                                    "type": "map",
+                                    "maps": ["pow"]
+                                }
+                            },
+                            {
+                                "title": "Dark Hyrule Castle",
+                                "icon": "images/dungeons/vaati.png",
+                                "content": {
+                                    "type": "map",
+                                    "maps": ["dhc"]
+                                }
+                            }
+                        ]
+                    }]
+                }
+            ]
+        }
+    }
+}
