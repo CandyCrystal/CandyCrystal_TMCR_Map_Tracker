@@ -1,6 +1,5 @@
 # Minish Cap Randomizer Emotracker package
-
-
+A map tracker package for [EmoTracker](https://emotracker.net/)
 ## How to enable autotracking
 
 1. Open Bizhawk.
