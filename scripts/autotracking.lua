@@ -642,11 +642,11 @@ function updateBigKeys(segment, code)
 	  else
 			updateToggleItemFromByteAndFlag(segment, "pow_bigkey", 0x2002eb1, 0x04)
 	  end
-  elseif code == "explicit_dhc_bigkey" then
+  elseif code == "dhc_bigkey" then
 	  if testFlag(segment, 0x2002DBE, 0x20) then
-	  		updateToggleItemFromByteAndFlag(segment, "explicit_dhc_bigkey", 0x2002DBE, 0x20)
+	  		updateToggleItemFromByteAndFlag(segment, "dhc_bigkey", 0x2002DBE, 0x20)
 	  else
-			updateToggleItemFromByteAndFlag(segment, "explicit_dhc_bigkey", 0x2002eb2, 0x04)
+			updateToggleItemFromByteAndFlag(segment, "dhc_bigkey", 0x2002eb2, 0x04)
 	  end
   end
 end
@@ -733,7 +733,7 @@ function updateSmallKeys(segment, code, address)
 	  end
       POW_KEY_COUNT = ReadU8(segment, address)
       item.AcquiredCount = POW_KEY_COUNT + POW_KEY_USED
-  elseif code == "explicit_dhc_smallkey" then
+  elseif code == "dhc_smallkey" then
       DHC_KEY_USED = 0
 	  if testFlag(segment, 0x2002dbb, 0x20) then
 	DHC_KEY_USED = DHC_KEY_USED + 1
@@ -904,17 +904,17 @@ function updateItemsFromMemorySegment(segment)
     updateToggleItemFromByteAndFlag(segment, "grip", 0x2002b43, 0x01)
     updateToggleItemFromByteAndFlag(segment, "bracelets", 0x2002b43, 0x04)
     updateToggleItemFromByteAndFlag(segment, "flippers", 0x2002b43, 0x10)
-    updateToggleItemFromByteAndFlag(segment, "spinattack", 0x2002b44, 0x01)
-    updateToggleItemFromByteAndFlag(segment, "rollattack", 0x2002b44, 0x04)
-    updateToggleItemFromByteAndFlag(segment, "dashattack", 0x2002b44, 0x10)
-    updateToggleItemFromByteAndFlag(segment, "rockbreaker", 0x2002b44, 0x40)
-    updateToggleItemFromByteAndFlag(segment, "swordbeam", 0x2002b45, 0x01)
-    updateToggleItemFromByteAndFlag(segment, "greatspin", 0x2002b45, 0x04)
-    updateToggleItemFromByteAndFlag(segment, "downthrust", 0x2002b45, 0x10)
-    updateToggleItemFromByteAndFlag(segment, "perilbeam", 0x2002b45, 0x40)
-    updateToggleItemFromByteAndFlag(segment, "fastspin", 0x2002b4e, 0x40)
-    updateToggleItemFromByteAndFlag(segment, "fastsplit", 0x2002b4f, 0x01)
-    updateToggleItemFromByteAndFlag(segment, "longspin", 0x2002b4f, 0x04)
+    -- updateToggleItemFromByteAndFlag(segment, "spinattack", 0x2002b44, 0x01)
+    -- updateToggleItemFromByteAndFlag(segment, "rollattack", 0x2002b44, 0x04)
+    -- updateToggleItemFromByteAndFlag(segment, "dashattack", 0x2002b44, 0x10)
+    -- updateToggleItemFromByteAndFlag(segment, "rockbreaker", 0x2002b44, 0x40)
+    -- updateToggleItemFromByteAndFlag(segment, "swordbeam", 0x2002b45, 0x01)
+    -- updateToggleItemFromByteAndFlag(segment, "greatspin", 0x2002b45, 0x04)
+    -- updateToggleItemFromByteAndFlag(segment, "downthrust", 0x2002b45, 0x10)
+    -- updateToggleItemFromByteAndFlag(segment, "perilbeam", 0x2002b45, 0x40)
+    -- updateToggleItemFromByteAndFlag(segment, "fastspin", 0x2002b4e, 0x40)
+    -- updateToggleItemFromByteAndFlag(segment, "fastsplit", 0x2002b4f, 0x01)
+    -- updateToggleItemFromByteAndFlag(segment, "longspin", 0x2002b4f, 0x04)
     updateToggleItemFromByteAndFlag(segment, "jabber", 0x2002b48, 0x40)
     updateToggleItemFromByteAndFlag(segment, "bowandfly", 0x2002b4e, 0x01)
     updateToggleItemFromByteAndFlag(segment, "mittsButterfly", 0x2002b4e, 0x04)
@@ -941,17 +941,17 @@ function updateItemsFromMemorySegment(segment)
     updateWilds(segment, "wilds", 0x6a)
     updateClouds(segment, "clouds", 0x65)
 
-    --updateSpin(segment)
-    --updateRoll(segment)
-    --updateDash(segment)
-    --updateRock(segment)
-    --updateBeam(segment)
-    --updateGreat(segment)
-    --updateDown(segment)
-    --updatePeril(segment)
-    --updateFast(segment)
-    --updateSplit(segment)
-    --updateLong(segment)
+    updateSpin(segment)
+    updateRoll(segment)
+    updateDash(segment)
+    updateRock(segment)
+    updateBeam(segment)
+    updateGreat(segment)
+    updateDown(segment)
+    updatePeril(segment)
+    updateFast(segment)
+    updateSplit(segment)
+    updateLong(segment)
 	
     updateSectionChestCountFromByteAndFlag(segment, "@Fifi/Fifi", 0x2002b3f, 0x20)
 
@@ -1725,7 +1725,7 @@ function updateKeys(segment)
     updateBigKeys(segment, "fow_bigkey")
     updateBigKeys(segment, "tod_bigkey")
     updateBigKeys(segment, "pow_bigkey")
-    updateBigKeys(segment, "explicit_dhc_bigkey")
+    updateBigKeys(segment, "dhc_bigkey")
     updateToggleItemFromByteAndFlag(segment, "dws_map", 0x2002ead, 0x01)
     updateToggleItemFromByteAndFlag(segment, "cof_map", 0x2002eae, 0x01)
     updateToggleItemFromByteAndFlag(segment, "fow_map", 0x2002eaf, 0x01)
@@ -1744,7 +1744,7 @@ function updateKeys(segment)
     updateSmallKeys(segment, "fow_smallkey", 0x2002e9f)
     updateSmallKeys(segment, "tod_smallkey", 0x2002ea0)
     updateSmallKeys(segment, "pow_smallkey", 0x2002ea1)
-    updateSmallKeys(segment, "explicit_dhc_smallkey", 0x2002ea2)
+    updateSmallKeys(segment, "dhc_smallkey", 0x2002ea2)
     updateSmallKeys(segment, "cryptkey", 0x2002ea3)
 
     updateSectionChestCountFromByteAndFlag(segment, "@Syrup's Hut/Witch's Item (60 Rupees)", 0x2002ea4, 0x04)

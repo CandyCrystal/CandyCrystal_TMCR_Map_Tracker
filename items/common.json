@@ -190,7 +190,7 @@
         "name": "Bombs and Remote",
         "type": "toggle_badged",
         "base_item": "bombs",
-        "img": "images/items/overlay_remote.png",
+        "img": "images/items/remote.png",
         "codes": "remote,bombsremote"
     },
     {
@@ -765,7 +765,7 @@
     {
         "name": "Crypt Keys",
         "type": "consumable",
-        "img": "images/items/dungeons/Small Key.png",
+        "img": "images/items/Small Key.png",
         "codes": "cryptkey",
         "max_quantity": 3
     },

@@ -9,7 +9,7 @@
             ["boots", "cape", "flute", "bowandfly", "fastsplit", "downthrust", "water", "fowx", "fow_bigkey", "fow_smallkey"],
             ["carlovtingle", "ringandbracelets", "flippersandfly", "wilds", "greatspin", "rollattack", "wind", "todx", "tod_bigkey", "tod_smallkey"],
             ["books", "nutandshroom", "bothkeys", "clouds", "longspin", "swordbeam", "rcx", "powx", "pow_bigkey", "pow_smallkey"],
-            ["dogbottle", "10hearts", "wallet", "falls", "", "perilbeam", "cryptkey", "dhc", "dhc_bigkey", "explicit_dhc_smallkey"]
+            ["dogbottle", "10hearts", "wallet", "falls", "", "perilbeam", "rc_smallkey", "dhc", "dhc_bigkey", "dhc_smallkey"]
         ]
     },
     "options_popup": {

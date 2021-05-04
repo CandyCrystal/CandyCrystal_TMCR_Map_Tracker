@@ -15,7 +15,9 @@
                     }],
                     "sections": [{
                         "name": "Rupee",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/red_rupee.png",
+                        "chest_opened_img": "images/items-map/gray_rupee.png"
                     }]
                 },
                 {
@@ -37,7 +39,9 @@
                                     }],
                                     "sections": [{
                                         "name": "Bridge Cave",
-                                        "item_count": 1
+                                        "item_count": 1,
+                                        "chest_unopened_img": "images/items-map/chest_blue.png",
+                                        "chest_opened_img": "images/items-map/chest_blue_open.png"
                                     }]
                                 },
                                 {
@@ -127,7 +131,9 @@
                                     }],
                                     "sections": [{
                                         "name": "Crenel Mines Cave",
-                                        "item_count": 1
+                                        "item_count": 1,
+                                        "chest_unopened_img": "images/items-map/chest_blue.png",
+                                        "chest_opened_img": "images/items-map/chest_blue_open.png"
                                     }]
                                 },
                                 {
@@ -206,7 +212,9 @@
                                         {
                                             "name": "Digging Spots (Melari's Mines Tab)",
                                             "item_count": 8,
-                                            "access_rules": ["mitts"]
+                                            "access_rules": ["mitts"],
+                                            "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                            "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                                         }
                                     ]
                                 },
@@ -235,7 +243,9 @@
                                         {
                                             "name": "Digging Spots (Melari's Mines Tab)",
                                             "item_count": 8,
-                                            "access_rules": ["mitts"]
+                                            "access_rules": ["mitts"],
+                                            "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                            "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                                         },
                                         {
                                             "name": "Minish Path Chest",
@@ -264,7 +274,9 @@
                                             }],
                                             "sections": [{
                                                 "name": "Digging Spot",
-                                                "item_count": 1
+                                                "item_count": 1,
+                                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                                             }]
                                         },
                                         {
@@ -277,7 +289,9 @@
                                             }],
                                             "sections": [{
                                                 "name": "Digging Spot",
-                                                "item_count": 1
+                                                "item_count": 1,
+                                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                                             }]
                                         },
                                         {
@@ -290,7 +304,9 @@
                                             }],
                                             "sections": [{
                                                 "name": "Digging Spot",
-                                                "item_count": 1
+                                                "item_count": 1,
+                                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                                             }]
                                         },
                                         {
@@ -303,7 +319,9 @@
                                             }],
                                             "sections": [{
                                                 "name": "Digging Spot",
-                                                "item_count": 1
+                                                "item_count": 1,
+                                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                                             }]
                                         },
                                         {
@@ -316,7 +334,9 @@
                                             }],
                                             "sections": [{
                                                 "name": "Digging Spot",
-                                                "item_count": 1
+                                                "item_count": 1,
+                                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                                             }]
                                         },
                                         {
@@ -329,7 +349,9 @@
                                             }],
                                             "sections": [{
                                                 "name": "Digging Spot",
-                                                "item_count": 1
+                                                "item_count": 1,
+                                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                                             }]
                                         },
                                         {
@@ -342,7 +364,9 @@
                                             }],
                                             "sections": [{
                                                 "name": "Digging Spot",
-                                                "item_count": 1
+                                                "item_count": 1,
+                                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                                             }]
                                         },
                                         {
@@ -355,7 +379,9 @@
                                             }],
                                             "sections": [{
                                                 "name": "Digging Spot",
-                                                "item_count": 1
+                                                "item_count": 1,
+                                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                                             }]
                                         }
                                     ]
@@ -433,7 +459,9 @@
                                         },
                                         {
                                             "name": "Rupees",
-                                            "item_count": 8
+                                            "item_count": 8,
+                                            "chest_unopened_img": "images/items-map/red_rupee.png",
+                                            "chest_opened_img": "images/items-map/gray_rupee.png"
                                         }
                                     ]
                                 }
@@ -477,7 +505,9 @@
                             }],
                             "sections": [{
                                     "name": "Chests",
-                                    "item_count": 2
+                                    "item_count": 2,
+                                    "chest_unopened_img": "images/items-map/chest_blue.png",
+                                    "chest_opened_img": "images/items-map/chest_blue_open.png"
                                 },
                                 {
                                     "name": "Heart Piece",
@@ -541,7 +571,9 @@
                             }],
                             "sections": [{
                                 "name": "Rupees",
-                                "item_count": 3
+                                "item_count": 3,
+                                "chest_unopened_img": "images/items-map/red_rupee.png",
+                                "chest_opened_img": "images/items-map/gray_rupee.png"
                             }]
                         },
                         {
@@ -633,7 +665,9 @@
                                             }],
                                             "sections": [{
                                                 "name": "Bombable Wall",
-                                                "item_count": 1
+                                                "item_count": 1,
+                                                "chest_unopened_img": "images/items-map/chest_blue.png",
+                                                "chest_opened_img": "images/items-map/chest_blue_open.png"
                                             }]
                                         },
                                         {
@@ -686,7 +720,9 @@
                                             }],
                                             "sections": [{
                                                 "name": "Joy Butterfly",
-                                                "item_count": 1
+                                                "item_count": 1,
+                                                "chest_unopened_img": "images/items-map/butterfly.png",
+                                                "chest_opened_img": "images/items-map/butterfly_gray.png"
                                             }]
                                         },
                                         {
@@ -726,7 +762,9 @@
                                     }],
                                     "sections": [{
                                         "name": "Joy Butterfly",
-                                        "item_count": 1
+                                        "item_count": 1,
+                                        "chest_unopened_img": "images/items-map/butterfly.png",
+                                        "chest_opened_img": "images/items-map/butterfly_gray.png"
                                     }]
                                 },
                                 {
@@ -808,7 +846,9 @@
                                     }],
                                     "sections": [{
                                         "name": "South Lake Cave",
-                                        "item_count": 1
+                                        "item_count": 1,
+                                        "chest_unopened_img": "images/items-map/chest_blue.png",
+                                        "chest_opened_img": "images/items-map/chest_blue_open.png"
                                     }]
                                 },
                                 {
@@ -821,7 +861,9 @@
                                     }],
                                     "sections": [{
                                         "name": "North Cave",
-                                        "item_count": 1
+                                        "item_count": 1,
+                                        "chest_unopened_img": "images/items-map/chest_blue.png",
+                                        "chest_opened_img": "images/items-map/chest_blue_open.png"
                                     }]
                                 },
                                 {
@@ -1034,7 +1076,9 @@
                                 },
                                 {
                                     "name": "Rupees",
-                                    "item_count": 16
+                                    "item_count": 16,
+                                    "chest_unopened_img": "images/items-map/red_rupee.png",
+                                    "chest_opened_img": "images/items-map/gray_rupee.png"
                                 }
                             ]
                         },
@@ -1076,7 +1120,9 @@
                             }],
                             "sections": [{
                                 "name": "Freestanding Chest",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/chest_blue.png",
+                                "chest_opened_img": "images/items-map/chest_blue_open.png"
                             }]
                         },
                         {
@@ -1178,7 +1224,9 @@
                     }],
                     "sections": [{
                         "name": "Trilby Highlands Bomb Wall",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/chest_blue.png",
+                        "chest_opened_img": "images/items-map/chest_blue_open.png"
                     }]
                 },
                 {
@@ -1192,7 +1240,9 @@
                     }],
                     "sections": [{
                         "name": "Rupees",
-                        "item_count": 15
+                        "item_count": 15,
+                        "chest_unopened_img": "images/items-map/red_rupee.png",
+                        "chest_opened_img": "images/items-map/gray_rupee.png"
                     }]
                 },
                 {
@@ -1403,7 +1453,9 @@
                             }],
                             "sections": [{
                                     "name": "Northeast Grave",
-                                    "item_count": 1
+                                    "item_count": 1,
+                                    "chest_unopened_img": "images/items-map/chest_blue.png",
+                                    "chest_opened_img": "images/items-map/chest_blue_open.png"
                                 },
                                 {
                                     "name": "Nearby Chest",
@@ -1422,7 +1474,9 @@
                             }],
                             "sections": [{
                                 "name": "Joy Butterfly",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/butterfly.png",
+                                "chest_opened_img": "images/items-map/butterfly_gray.png"
                             }]
                         }
                     ]
@@ -1486,7 +1540,9 @@
                     }],
                     "sections": [{
                         "name": "Top Left Tree",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/chest_blue.png",
+                        "chest_opened_img": "images/items-map/chest_blue_open.png"
                     }]
                 },
                 {
@@ -1499,7 +1555,9 @@
                     }],
                     "sections": [{
                         "name": "Top Right Tree",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/chest_blue.png",
+                        "chest_opened_img": "images/items-map/chest_blue_open.png"
                     }]
                 },
                 {
@@ -1512,7 +1570,9 @@
                     }],
                     "sections": [{
                         "name": "Bottom Left Tree",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/chest_blue.png",
+                        "chest_opened_img": "images/items-map/chest_blue_open.png"
                     }]
                 },
                 {
@@ -1525,7 +1585,9 @@
                     }],
                     "sections": [{
                         "name": "Bottom Right Tree",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/chest_blue.png",
+                        "chest_opened_img": "images/items-map/chest_blue_open.png"
                     }]
                 },
                 {
@@ -1612,7 +1674,9 @@
                     }],
                     "sections": [{
                         "name": "Waterfall",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/chest_blue.png",
+                        "chest_opened_img": "images/items-map/chest_blue_open.png"
                     }]
                 },
                 {
@@ -1720,7 +1784,9 @@
                         },
                         {
                             "name": "Hearth Right Pot",
-                            "item_count": 1
+                            "item_count": 1,
+                            "chest_unopened_img": "images/items-map/pot.png",
+                            "chest_opened_img": "images/items-map/pot_gray.png"
                         }
                     ]
                 },
@@ -1859,12 +1925,16 @@
                     "sections": [{
                             "name": "Scissor Beetles",
                             "access_rules": ["[$canDamage],$canDamage_off,cape", "[$canDamage],$canDamage_off,gust", "[$canDamage],$canDamage_off,flippers"],
-                            "item_count": 1
+                            "item_count": 1,
+                            "chest_unopened_img": "images/items-map/big_chest_closed.png",
+                            "chest_opened_img": "images/items-map/big_chest_open.png"
                         },
                         {
                             "name": "Frozen Chest",
                             "access_rules": ["flippers,lamp"],
-                            "item_count": 1
+                            "item_count": 1,
+                            "chest_unopened_img": "images/items-map/chest_frozen.png",
+                            "chest_opened_img": "images/items-map/chest_open.png"
                         }
                     ]
                 },
@@ -1880,17 +1950,23 @@
                     "sections": [{
                             "name": "Scissor Beetles",
                             "access_rules": ["[$canDamage],$canDamage_off,cape", "[$canDamage],$canDamage_off,gust", "[$canDamage],$canDamage_off,flippers"],
-                            "item_count": 1
+                            "item_count": 1,
+                            "chest_unopened_img": "images/items-map/big_chest_closed.png",
+                            "chest_opened_img": "images/items-map/big_chest_open.png"
                         },
                         {
                             "name": "Frozen Chest",
                             "access_rules": ["flippers,lamp"],
-                            "item_count": 1
+                            "item_count": 1,
+                            "chest_unopened_img": "images/items-map/chest_frozen.png",
+                            "chest_opened_img": "images/items-map/chest_open.png"
                         },
                         {
                             "name": "Under the Waterfall",
                             "access_rules": ["flippers,cane"],
-                            "item_count": 1
+                            "item_count": 1,
+                            "chest_unopened_img": "images/items-map/dive.png",
+                            "chest_opened_img": "images/items-map/dive_gray.png"
                         }
                     ]
                 },
@@ -2120,7 +2196,9 @@
                     }],
                     "sections": [{
                         "name": "Rupees",
-                        "item_count": 15
+                        "item_count": 15,
+                        "chest_unopened_img": "images/items-map/blue_rupee.png",
+                        "chest_opened_img": "images/items-map/gray_rupee.png"
                     }]
                 },
                 {
@@ -2331,7 +2409,9 @@
                                 },
                                 {
                                     "name": "Digging Spot on the Left",
-                                    "item_count": 1
+                                    "item_count": 1,
+                                    "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                    "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                                 }
                             ]
                         },
@@ -2398,7 +2478,9 @@
                             }],
                             "sections": [{
                                 "name": "Digging Spot",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                             }]
                         },
                         {
@@ -2412,7 +2494,9 @@
                             }],
                             "sections": [{
                                 "name": "Digging Spot",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                             }]
                         },
                         {
@@ -2426,7 +2510,9 @@
                             }],
                             "sections": [{
                                 "name": "Digging Spot",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                             }]
                         },
                         {
@@ -2440,7 +2526,9 @@
                             }],
                             "sections": [{
                                 "name": "Digging Spot",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                             }]
                         },
                         {
@@ -2454,7 +2542,9 @@
                             }],
                             "sections": [{
                                 "name": "Digging Spot",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                             }]
                         },
                         {
@@ -2468,7 +2558,9 @@
                             }],
                             "sections": [{
                                 "name": "Digging Spot",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                             }]
                         },
                         {
@@ -2571,7 +2663,9 @@
                                 {
                                     "name": "Bombable Wall First Chest",
                                     "access_rules": ["bombs,[lamp]"],
-                                    "item_count": 1
+                                    "item_count": 1,
+                                    "chest_unopened_img": "images/items-map/chest_blue.png",
+                                    "chest_opened_img": "images/items-map/chest_blue_open.png"
                                 },
                                 {
                                     "name": "Bombable Wall Second Chest",
@@ -2591,12 +2685,16 @@
                             "sections": [{
                                     "name": "Bomb Wall Chest",
                                     "access_rules": ["grip,bombs,[lamp]"],
-                                    "item_count": 1
+                                    "item_count": 1,
+                                    "chest_unopened_img": "images/items-map/chest_blue.png",
+                                    "chest_opened_img": "images/items-map/chest_blue_open.png"
                                 },
                                 {
                                     "name": "Freestanding Chest",
                                     "access_rules": ["grip,[lamp]"],
-                                    "item_count": 1
+                                    "item_count": 1,
+                                    "chest_unopened_img": "images/items-map/chest_blue.png",
+                                    "chest_opened_img": "images/items-map/chest_blue_open.png"
                                 }
                             ]
                         },
@@ -2611,17 +2709,23 @@
                             "sections": [{
                                     "name": "Bomb Wall Chest",
                                     "access_rules": ["grip,bombs,[lamp]"],
-                                    "item_count": 1
+                                    "item_count": 1,
+                                    "chest_unopened_img": "images/items-map/chest_blue.png",
+                                    "chest_opened_img": "images/items-map/chest_blue_open.png"
                                 },
                                 {
                                     "name": "Freestanding Chest",
                                     "access_rules": ["grip,[lamp]"],
-                                    "item_count": 1
+                                    "item_count": 1,
+                                    "chest_unopened_img": "images/items-map/chest_blue.png",
+                                    "chest_opened_img": "images/items-map/chest_blue_open.png"
                                 },
                                 {
                                     "name": "Downstairs Rupees",
                                     "access_rules": ["grip,[lamp]"],
-                                    "item_count": 9
+                                    "item_count": 9,
+                                    "chest_unopened_img": "images/items-map/red_rupee.png",
+                                    "chest_opened_img": "images/items-map/gray_rupee.png"
                                 }
                             ]
                         },
@@ -2636,22 +2740,30 @@
                             "sections": [{
                                     "name": "Bomb Wall Chest",
                                     "access_rules": ["grip,bombs,[lamp]"],
-                                    "item_count": 1
+                                    "item_count": 1,
+                                    "chest_unopened_img": "images/items-map/chest_blue.png",
+                                    "chest_opened_img": "images/items-map/chest_blue_open.png"
                                 },
                                 {
                                     "name": "Freestanding Chest",
                                     "access_rules": ["grip,[lamp]"],
-                                    "item_count": 1
+                                    "item_count": 1,
+                                    "chest_unopened_img": "images/items-map/chest_blue.png",
+                                    "chest_opened_img": "images/items-map/chest_blue_open.png"
                                 },
                                 {
                                     "name": "Downstairs Rupees",
                                     "access_rules": ["grip,[lamp]"],
-                                    "item_count": 9
+                                    "item_count": 9,
+                                    "chest_unopened_img": "images/items-map/red_rupee.png",
+                                    "chest_opened_img": "images/items-map/gray_rupee.png"
                                 },
                                 {
                                     "name": "Underwater Rupees",
                                     "access_rules": ["grip,[lamp],flippers"],
-                                    "item_count": 6
+                                    "item_count": 6,
+                                    "chest_unopened_img": "images/items-map/dive.png",
+                                    "chest_opened_img": "images/items-map/dive_gray.png"
                                 }
                             ]
                         },
@@ -2707,7 +2819,9 @@
                             }],
                             "sections": [{
                                 "name": "North Digging Spot",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                             }]
                         },
                         {
@@ -2721,7 +2835,9 @@
                             }],
                             "sections": [{
                                 "name": "South Digging Spot",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                             }]
                         },
                         {
@@ -2736,7 +2852,9 @@
                             "sections": [{
                                     "name": "Left Digging Spot",
                                     "item_count": 1,
-                                    "access_rules": ["mitts"]
+                                    "access_rules": ["mitts"],
+                                    "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                    "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                                 },
                                 {
                                     "name": "Right Chest",
@@ -2792,17 +2910,23 @@
                     "sections": [{
                             "name": "Rupee 1",
                             "capture_item": true,
-                            "item_count": 1
+                            "item_count": 1,
+                            "chest_unopened_img": "images/items-map/red_rupee.png",
+                            "chest_opened_img": "images/items-map/gray_rupee.png"
                         },
                         {
                             "name": "Rupee 2",
                             "capture_item": true,
-                            "item_count": 1
+                            "item_count": 1,
+                            "chest_unopened_img": "images/items-map/red_rupee.png",
+                            "chest_opened_img": "images/items-map/gray_rupee.png"
                         },
                         {
                             "name": "Rupee 3",
                             "capture_item": true,
-                            "item_count": 1
+                            "item_count": 1,
+                            "chest_unopened_img": "images/items-map/red_rupee.png",
+                            "chest_opened_img": "images/items-map/gray_rupee.png"
                         }
                     ]
                 },
@@ -2862,7 +2986,9 @@
                     }],
                     "sections": [{
                         "name": "Malon's Pot",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/pot.png",
+                        "chest_opened_img": "images/items-map/pot_gray.png"
                     }]
                 },
                 {
@@ -2875,7 +3001,9 @@
                     }],
                     "sections": [{
                             "name": "Lon Lon Cave",
-                            "item_count": 1
+                            "item_count": 1,
+                            "chest_unopened_img": "images/items-map/chest_blue.png",
+                            "chest_opened_img": "images/items-map/chest_blue_open.png"
                         },
                         {
                             "name": "Hidden Bomb Wall",
@@ -2908,7 +3036,9 @@
                     }],
                     "sections": [{
                             "name": "Small Chest",
-                            "item_count": 1
+                            "item_count": 1,
+                            "chest_unopened_img": "images/items-map/chest_blue.png",
+                            "chest_opened_img": "images/items-map/chest_blue_open.png"
                         },
                         {
                             "name": "Big Chest",
@@ -2929,7 +3059,9 @@
                     }],
                     "sections": [{
                         "name": "Lon Lon Pond",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/big_chest_closed.png",
+                        "chest_opened_img": "images/items-map/big_chest_open.png"
                     }]
                 },
                 {
@@ -2981,7 +3113,9 @@
                     "sections": [{
                         "name": "Digging Spot Above Tree",
                         "access_rules": ["llrkey,cane,mitts", "ocarina,cane,mitts", "cape,mitts", "flippers,mitts,cane"],
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/mole_mitts.png",
+                        "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                     }]
                 }
             ]
@@ -3265,7 +3399,9 @@
                     }],
                     "sections": [{
                         "name": "Eastern Hills Bomb Wall",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/chest_blue.png",
+                        "chest_opened_img": "images/items-map/chest_blue_open.png"
                     }]
                 },
                 {
@@ -3308,7 +3444,9 @@
                     }],
                     "sections": [{
                         "name": "Farm Rupee",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/red_rupee.png",
+                        "chest_opened_img": "images/items-map/gray_rupee.png"
                     }]
                 },
                 {
@@ -3398,7 +3536,9 @@
                     }],
                     "sections": [{
                         "name": "Chest",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/chest_yellow.png",
+                        "chest_opened_img": "images/items-map/chest_yellow_open.png"
                     }]
                 },
                 {
@@ -3425,7 +3565,9 @@
                     }],
                     "sections": [{
                         "name": "Chest",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/chest_yellow.png",
+                        "chest_opened_img": "images/items-map/chest_yellow_open.png"
                     }]
                 },
                 {

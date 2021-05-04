@@ -8,8 +8,8 @@
             ["shield", "mittsandfly", "lamp", "bombsremote", "fastspin", "dashattack", "cofx", "earth"],
             ["boots", "cape", "flute", "bowandfly", "fastsplit", "downthrust", "fowx", "fire"],
             ["carlovtingle", "ringandbracelets", "flippersandfly", "wilds", "greatspin", "rollattack", "todx", "water"],
-            ["books", "nutandshroom", "bothkeys", "clouds", "longspin", "swordbeam", "fowx", "wind"],
-            ["dogbottle", "10hearts", "wallet", "falls", "", "perilbeam", "rcx", ""]
+            ["books", "nutandshroom", "bothkeys", "clouds", "longspin", "swordbeam", "powx", "wind"],
+            ["dogbottle", "10hearts", "wallet", "falls", "sevenscrolls", "perilbeam", "rcx", ""]
         ]
     },
     "options_popup": {
@@ -20,7 +20,7 @@
             "h_alignment": "center",
             "item_margin": "1,2",
             "rows": [
-                ["obscure_off", "fusions_open", "dhc_closed", "element4Needed", "sword5Needed", "rupees_off", "weapons_off"]
+                ["obscure_off", "fusions_open", "dhc_closed", "element4Needed", "sword5Needed", "rupees_off", "weapons_off", "bingo_off"]
             ]
         }
     },

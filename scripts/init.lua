@@ -25,7 +25,7 @@ else
 end
 
 if _VERSION == "Lua 5.3" then
-  ScriptHost:LoadScript("scripts/autotracking.lua")
+    ScriptHost:LoadScript("scripts/autotracking.lua")
 else
-  print("Your tracker version does not support autotracking")
+    print("Your tracker version does not support autotracking")
 end
