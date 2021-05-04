@@ -2,7 +2,7 @@
 A map tracker package for [EmoTracker](https://emotracker.net/)
 ## How to install
 
-To install this, simply download the .zip file from the releases page, and put it in C:\Users\%username%\Documents\EmoTracker\packs
+To install this, simply download the .zip file from the releases page, and put it in C:\Users\\%username%\Documents\EmoTracker\packs
 
 ## How to enable autotracking
 
