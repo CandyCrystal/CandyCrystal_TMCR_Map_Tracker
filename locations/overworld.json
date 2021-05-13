@@ -54,7 +54,9 @@
                                     }],
                                     "sections": [{
                                         "name": "Crenel Business Scrub",
-                                        "item_count": 1
+                                        "item_count": 1,
+                                        "chest_unopened_img": "images/items-map/scrub.png",
+                                        "chest_opened_img": "images/items-map/scrub_gray.png"
                                     }]
                                 },
                                 {
@@ -110,7 +112,9 @@
                                     }],
                                     "sections": [{
                                         "name": "Crenel Fairy",
-                                        "item_count": 1
+                                        "item_count": 1,
+                                        "chest_unopened_img": "images/items-map/blue_fairy.png",
+                                        "chest_opened_img": "images/items-map/blue_fairy_gray.png"
                                     }]
                                 },
                                 {
@@ -778,7 +782,9 @@
                                     }],
                                     "sections": [{
                                         "name": "Bow Chest",
-                                        "item_count": 1
+                                        "item_count": 1,
+                                        "chest_unopened_img": "images/items-map/big_chest_closed.png",
+                                        "chest_opened_img": "images/items-map/big_chest_open.png"
                                     }]
                                 },
                                 {
@@ -792,7 +798,9 @@
                                     }],
                                     "sections": [{
                                             "name": "Bow Chest",
-                                            "item_count": 1
+                                            "item_count": 1,
+                                            "chest_unopened_img": "images/items-map/big_chest_closed.png",
+                                            "chest_opened_img": "images/items-map/big_chest_open.png"
                                         },
                                         {
                                             "name": "Left Crack",
@@ -1185,7 +1193,9 @@
                     }],
                     "sections": [{
                         "name": "Trilby Business Scrub",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/scrub.png",
+                        "chest_opened_img": "images/items-map/scrub_gray.png"
                     }]
                 },
                 {
@@ -1377,7 +1387,9 @@
                             }],
                             "sections": [{
                                 "name": "Great Fairy",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/green_fairy.png",
+                                "chest_opened_img": "images/items-map/green_fairy_gray.png"
                             }]
                         },
                         {
@@ -1721,13 +1733,15 @@
                     "name": "Eastern Shops",
                     "map_locations": [{
                         "map": "map",
-                        "x": 1225,
-                        "y": 1350
+                        "x": 1220,
+                        "y": 1400
                     }],
                     "sections": [{
                             "name": "Rem",
                             "access_rules": ["mushroom"],
-                            "item_count": 1
+                            "item_count": 1,
+                            "chest_unopened_img": "images/items-map/rem.png",
+                            "chest_opened_img": "images/items-map/rem_gray.png"
                         },
                         {
                             "name": "Simon's Simulations",
@@ -1825,7 +1839,9 @@
                     }],
                     "sections": [{
                         "name": "Carlov",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/carlov.png",
+                        "chest_opened_img": "images/items-map/carlov_gray.png"
                     }]
                 },
                 {
@@ -2153,7 +2169,9 @@
                     }],
                     "sections": [{
                         "name": "Lady Next to Cafe",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/cafe_lady.png",
+                        "chest_opened_img": "images/items-map/cafe_lady_gray.png"
                     }]
                 },
                 {
@@ -3523,7 +3541,9 @@
                     }],
                     "sections": [{
                         "name": "Minish Woods Great Fairy",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/yellow_fairy.png",
+                        "chest_opened_img": "images/items-map/yellow_fairy_gray.png"
                     }]
                 },
                 {

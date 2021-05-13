@@ -1579,9 +1579,7 @@
                     }],
                     "sections": [{
                         "name": "Blade Chest",
-                        "item_count": 1,
-                        "chest_unopened_img": "images/items-map/Small Key.png",
-                        "chest_opened_img": "images/items-map/Small Key Done.png"
+                        "item_count": 1
                     }]
                 },
                 {
@@ -1611,8 +1609,8 @@
                     "sections": [{
                         "name": "Stone King",
                         "item_count": 1,
-                        "chest_unopened_img": "images/items-map/Small Key.png",
-                        "chest_opened_img": "images/items-map/Small Key Done.png"
+                        "chest_unopened_img": "images/items-map/king.png",
+                        "chest_opened_img": "images/items-map/king_gray.png"
                     }]
                 },
                 {
@@ -1642,9 +1640,7 @@
                     }],
                     "sections": [{
                         "name": "Northwest Tower",
-                        "item_count": 1,
-                        "chest_unopened_img": "images/items-map/Small Key.png",
-                        "chest_opened_img": "images/items-map/Small Key Done.png"
+                        "item_count": 1
                     }]
                 },
                 {
@@ -1662,9 +1658,7 @@
                     }],
                     "sections": [{
                         "name": "Southwest Tower",
-                        "item_count": 1,
-                        "chest_unopened_img": "images/items-map/Small Key.png",
-                        "chest_opened_img": "images/items-map/Small Key Done.png"
+                        "item_count": 1
                     }]
                 },
                 {
@@ -1682,9 +1676,7 @@
                     }],
                     "sections": [{
                         "name": "Southeast Tower",
-                        "item_count": 1,
-                        "chest_unopened_img": "images/items-map/Small Key.png",
-                        "chest_opened_img": "images/items-map/Small Key Done.png"
+                        "item_count": 1
                     }]
                 },
                 {
@@ -1702,9 +1694,7 @@
                     }],
                     "sections": [{
                         "name": "Northeast Tower",
-                        "item_count": 1,
-                        "chest_unopened_img": "images/items-map/Small Key.png",
-                        "chest_opened_img": "images/items-map/Small Key Done.png"
+                        "item_count": 1
                     }]
                 },
                 {
