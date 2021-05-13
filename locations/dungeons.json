@@ -1973,9 +1973,7 @@
                 {
                     "name": "Blade Chest",
                     "access_rules": ["sword5,spinattack"],
-                    "item_count": 1,
-                    "chest_unopened_img": "images/items-map/Small Key.png",
-                    "chest_opened_img": "images/items-map/Small Key Done.png"
+                    "item_count": 1
                 },
                 {
                     "name": "Platform Chest",

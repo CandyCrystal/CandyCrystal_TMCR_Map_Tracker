@@ -1,7 +1,7 @@
 {
     "tracker_broadcast": {
         "type": "array",
-        "dropshadow": true,
+        "dropshadow": false,
         "margin": "0",
         "content": [{
             "type": "array",

@@ -57,15 +57,22 @@
                             "header": "Items",
                             "h_alignment": "stretch",
                             "dock": "top",
-                            "header_content": {
-                                "type": "button_popup",
-                                "style": "settings",
-                                "popup_background": "#50877373",
-                                "layout": "options_popup"
-                            },
                             "content": {
                                 "type": "layout",
                                 "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "dock": "bottom",
+                            "content": {
+                                "type": "itemgrid",
+                                "h_alignment": "center",
+                                "item_margin": "8,0",
+                                "rows": [
+                                    ["obscure_off", "fusions_open", "dhc_closed", "element4Needed", "sword5Needed", "rupees_off", "weapons_off", "bingo_off"]
+                                ]
                             }
                         },
                         {
