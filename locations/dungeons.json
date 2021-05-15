@@ -247,7 +247,7 @@
             ]
         },
         {
-            "name": "Cave of Flames",
+            "name": "Cave of Flames Rupeemania",
             "short_name": "CoF",
             "access_rules": [
                 "sword,spinattack,bottle,grip,gust,bombs",
@@ -257,6 +257,8 @@
                 "sword,spinattack,bottle,grip,gust,$beam",
                 "sword,spinattack,bottle,grip,cane",
                 "cape,bottle,grip",
+                "boots,[],bottle,grip,cane",
+                "boots,[],bottle,bombs,cane",
                 "cape,bottle,bombs,cane",
                 "sword,spinattack,bottle,bombs,cane",
                 "flippers,bottle,grip,gust,bombs",
@@ -513,7 +515,7 @@
             ]
         },
         {
-            "name": "Fortress of Winds",
+            "name": "Fortress of Winds Rupeemania",
             "access_rules": ["sword3,spinattack,cape,kinstoneWilds:3",
                 "sword3,spinattack,boots,bow,kinstoneWilds:3",
                 "sword3,spinattack,boots,flippers,kinstoneWilds:3"
@@ -655,7 +657,7 @@
             ]
         },
         {
-            "name": "Fortress of Winds",
+            "name": "Fortress of Winds Obscure",
             "access_rules": ["sword3,spinattack,cape,kinstoneWilds:3",
                 "sword3,spinattack,boots,bow,kinstoneWilds:3",
                 "sword3,spinattack,boots,flippers,kinstoneWilds:3"
@@ -789,7 +791,7 @@
             ]
         },
         {
-            "name": "Fortress of Winds",
+            "name": "Fortress of Winds Rupeemania + Obscure",
             "access_rules": ["sword3,spinattack,cape,kinstoneWilds:3",
                 "sword3,spinattack,boots,bow,kinstoneWilds:3",
                 "sword3,spinattack,boots,flippers,kinstoneWilds:3"
@@ -1098,7 +1100,7 @@
             ]
         },
         {
-            "name": "Temple of Droplets",
+            "name": "Temple of Droplets Rupeemania",
             "short_name": "TOD",
             "access_rules": [
                 "llrkey,sword,flippers",
@@ -1235,7 +1237,7 @@
             ]
         },
         {
-            "name": "Temple of Droplets",
+            "name": "Temple of Droplets Obscure",
             "short_name": "TOD",
             "access_rules": [
                 "llrkey,sword,flippers",
@@ -1361,7 +1363,7 @@
             ]
         },
         {
-            "name": "Temple of Droplets",
+            "name": "Temple of Droplets Rupeemania plus Obscure",
             "short_name": "TOD",
             "access_rules": [
                 "llrkey,sword,flippers",
@@ -1639,7 +1641,7 @@
             ]
         },
         {
-            "name": "Palace of Winds",
+            "name": "Palace of Winds Rupeemania",
             "short_name": "POW",
             "codes": "pow",
             "access_rules": ["bombs,kinstoneFalls,grip,kinstoneClouds:5,mitts,sword4,spinattack,[lamp]",
@@ -1857,7 +1859,7 @@
             ]
         },
         {
-            "name": "Cark Hyrule Castle",
+            "name": "Dark Hyrule Castle Open",
             "short_name": "DHC",
             "codes": "dhc",
             "map_locations": [{
@@ -1945,7 +1947,7 @@
             ]
         },
         {
-            "name": "Dark Hyrule Castle",
+            "name": "Dark Hyrule Castle Ped Items",
             "short_name": "DHC",
             "codes": "dhc",
             "map_locations": [{
