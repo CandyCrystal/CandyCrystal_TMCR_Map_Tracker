@@ -4,7 +4,7 @@
     "chest_opened_img": "images/items-map/chest_open.png",
     "children": [{
             "name": "Trilby Highlands",
-            "access_rules": ["sword,spinattack", "cape", "flippers"],
+            "access_rules": ["sword,spinattack", "cape", "flippers", "boots,[]"],
             "children": [{
                     "name": "Vine Rupee",
                     "map_locations": [{
