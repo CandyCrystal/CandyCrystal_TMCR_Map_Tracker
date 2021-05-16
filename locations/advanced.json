@@ -258,8 +258,8 @@
                     ],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 1515,
-                        "y": 950
+                        "x": 2259,
+                        "y": 1005
                     }],
                     "sections": [{
                         "name": "Spiny Beetle Fight",
@@ -271,8 +271,8 @@
                     "access_rules": ["cane,[$canDamage],$canDamage_off", "shield,[$canDamage],$canDamage_off", "bombs", "downthrust,cape,sword"],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 1260,
-                        "y": 935,
+                        "x": 2005,
+                        "y": 1005,
                         "force_invisibility_rules": ["rupees_off"]
                     }],
                     "sections": [{
@@ -292,8 +292,8 @@
                     ],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 940,
-                        "y": 1640
+                        "x": 890,
+                        "y": 1090
                     }],
                     "sections": [{
                         "name": "Big Chest Room Big Chest",
@@ -307,8 +307,8 @@
                     "access_rules": ["downthrust,cape,sword", "cane,[$canDamage],$canDamage_off", "shield,[$canDamage],$canDamage_off", "bombs"],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 750,
-                        "y": 1835
+                        "x": 690,
+                        "y": 1290
                     }],
                     "sections": [{
                         "name": "Big Chest Room Small Chest",
@@ -325,8 +325,8 @@
                     ],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 425,
-                        "y": 1835
+                        "x": 370,
+                        "y": 1390
                     }],
                     "sections": [{
                         "name": "First Rollobite Room Free Chest",
@@ -343,8 +343,8 @@
                     ],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 425,
-                        "y": 1660
+                        "x": 370,
+                        "y": 1120
                     }],
                     "sections": [{
                         "name": "First Rollobite Room Pillar Chest",
@@ -361,8 +361,8 @@
                     ],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 885,
-                        "y": 1395
+                        "x": 840,
+                        "y": 850
                     }],
                     "sections": [{
                         "name": "Bomb Wall HP",
@@ -382,8 +382,8 @@
                     ],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 785,
-                        "y": 950
+                        "x": 730,
+                        "y": 410
                     }],
                     "sections": [{
                         "name": "Spiny Chu Fight",
@@ -397,8 +397,8 @@
                     "access_rules": ["cane,sword,cof_smallkey:1"],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 920,
-                        "y": 890
+                        "x": 860,
+                        "y": 340
                     }],
                     "sections": [{
                         "name": "Spiny Chu Pillar Chest",
@@ -410,8 +410,8 @@
                     "access_rules": ["cane,sword,cof_smallkey:2"],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 450,
-                        "y": 310
+                        "x": 1220,
+                        "y": 270
                     }],
                     "sections": [{
                         "name": "Pre Lava Basement Room Block Chest",
@@ -423,8 +423,8 @@
                     "access_rules": ["cane,sword,cof_smallkey:2"],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 480,
-                        "y": 375
+                        "x": 1270,
+                        "y": 340
                     }],
                     "sections": [{
                         "name": "Pre Lava Basement Room Ledge",
@@ -436,8 +436,8 @@
                     "access_rules": ["cane,sword,cof_smallkey:2"],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 1610,
-                        "y": 135
+                        "x": 2370,
+                        "y": 120
                     }],
                     "sections": [{
                         "name": "Blade Chest",
@@ -449,8 +449,8 @@
                     "access_rules": ["sword,cane,cof_smallkey:2"],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 740,
-                        "y": 695
+                        "x": 1520,
+                        "y": 665
                     }],
                     "sections": [{
                         "name": "Lava Basement Left",
@@ -462,8 +462,8 @@
                     "access_rules": ["sword,cane,cof_smallkey:2"],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 1290,
-                        "y": 700
+                        "x": 2050,
+                        "y": 660
                     }],
                     "sections": [{
                         "name": "Lava Basement Right",
@@ -475,8 +475,8 @@
                     "access_rules": ["cane,sword,cof_smallkey:2"],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 895,
-                        "y": 435
+                        "x": 1665,
+                        "y": 400
                     }],
                     "sections": [{
                         "name": "Lava Basement Big Chest",
@@ -490,8 +490,8 @@
                     "access_rules": ["cane,sword,cof_bigkey,cof_smallkey:2"],
                     "map_locations": [{
                         "map": "cof",
-                        "x": 1555,
-                        "y": 425
+                        "x": 1380,
+                        "y": 1200
                     }],
                     "sections": [{
                         "name": "Gleerok",
@@ -1233,7 +1233,7 @@
                     "map_locations": [{
                         "map": "rc",
                         "x": 295,
-                        "y": 1655
+                        "y": 805
                     }],
                     "sections": [{
                             "name": "First Gibdos",
@@ -1252,8 +1252,8 @@
                     "access_rules": ["rc_smallkey:1"],
                     "map_locations": [{
                         "map": "rc",
-                        "x": 140,
-                        "y": 935
+                        "x": 143,
+                        "y": 85
                     }],
                     "sections": [{
                         "name": "Left Path",
@@ -1267,8 +1267,8 @@
                     "access_rules": ["rc_smallkey:1"],
                     "map_locations": [{
                         "map": "rc",
-                        "x": 445,
-                        "y": 935
+                        "x": 447,
+                        "y": 85
                     }],
                     "sections": [{
                         "name": "Right Path",
@@ -1282,7 +1282,7 @@
                     "access_rules": ["lamp,rc_smallkey:3"],
                     "map_locations": [{
                         "map": "rc",
-                        "x": 295,
+                        "x": 895,
                         "y": 75
                     }],
                     "sections": [{
