@@ -1101,7 +1101,9 @@
                             }],
                             "sections": [{
                                 "name": "Buried Treasure",
-                                "item_count": 6
+                                "item_count": 6,
+                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png",
                             }]
                         },
                         {
@@ -1115,7 +1117,9 @@
                             }],
                             "sections": [{
                                 "name": "More Buried Treasure",
-                                "item_count": 2
+                                "item_count": 2,
+                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png",
                             }]
                         },
                         {
@@ -1414,7 +1418,9 @@
                             }],
                             "sections": [{
                                 "name": "Dampe",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/dampe.png",
+                                "chest_opened_img": "images/items-map/dampe_gray.png"
                             }]
                         },
                         {
@@ -1539,7 +1545,9 @@
                     }],
                     "sections": [{
                         "name": "North Field Digging Spot",
-                        "item_count": 1
+                        "item_count": 1,
+                        "chest_unopened_img": "images/items-map/mole_mitts.png",
+                        "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                     }]
                 },
                 {
@@ -1891,14 +1899,18 @@
                             {
                                 "name": "Save Gregal",
                                 "access_rules": ["gust"],
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/gregal_bed.png",
+                                "chest_opened_img": "images/items-map/gregal_bed_gray.png"
                             },
                             {
                                 "name": "Gregal's Gift",
                                 "access_rules": ["bombs,kinstoneFalls,grip,[lamp],cape,kinstoneClouds:5,gust",
                                     "bombs,kinstoneFalls,grip,[lamp],mitts,kinstoneClouds:5,gust"
                                 ],
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/items-map/gregal.png",
+                                "chest_opened_img": "images/items-map/gregal_gray.png"
                             }
                         ]
                     }]
@@ -2032,7 +2044,9 @@
                     "sections": [{
                         "name": "Yellow Library Minish",
                         "item_count": 1,
-                        "access_rules": ["book3,cane"]
+                        "access_rules": ["book3,cane"],
+                        "chest_unopened_img": "images/items-map/yellari.png",
+                        "chest_opened_img": "images/items-map/yellari_gray.png"
                     }]
                 },
                 {
@@ -2609,12 +2623,18 @@
                             "sections": [{
                                     "name": "Save Gregal",
                                     "access_rules": ["gust"],
-                                    "item_count": 1
+                                    "item_count": 1,
+                                    "chest_unopened_img": "images/items-map/gregal_bed.png",
+                                    "chest_opened_img": "images/items-map/gregal_bed_gray.png"
                                 },
                                 {
                                     "name": "Gregal's Gift",
-                                    "access_rules": ["gust"],
-                                    "item_count": 1
+                                    "access_rules": ["bombs,kinstoneFalls,grip,[lamp],cape,kinstoneClouds:5,gust",
+                                        "bombs,kinstoneFalls,grip,[lamp],mitts,kinstoneClouds:5,gust"
+                                    ],
+                                    "item_count": 1,
+                                    "chest_unopened_img": "images/items-map/gregal.png",
+                                    "chest_opened_img": "images/items-map/gregal_gray.png"
                                 },
                                 {
                                     "name": "House Chests",
@@ -2839,7 +2859,10 @@
                                 "restrict_visibility_rules": ["obscure_off,fusions_none"]
                             }],
                             "sections": [{
-                                "name": "North Digging Spot"
+                                "name": "North Digging Spot",
+                                "chest_unopened_img": "images/items-map/mole_mitts.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png",
+                                "item_count": 1
                             }]
                         },
                         {

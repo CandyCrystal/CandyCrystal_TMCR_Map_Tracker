@@ -1279,7 +1279,9 @@
                         "lamp,rc_smallkey:3",
                         "lamp,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/dive.png",
+                    "chest_opened_img": "images/items-map/dive_gray.png"
                 }
             ]
         },
@@ -1314,7 +1316,9 @@
             }],
             "sections": [{
                     "name": "First Ice Block",
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/ice_block.png",
+                    "chest_opened_img": "images/items-map/ice_block_gray.png"
                 },
                 {
                     "name": "Small Key Locked Ice Block",
@@ -1322,7 +1326,9 @@
                         "[tod_smallkey:4],tod_smallkey:1",
                         "keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/ice_block.png",
+                    "chest_opened_img": "images/items-map/ice_block_gray.png"
                 },
                 {
                     "name": "Post Madderpillar Chest",
@@ -1347,8 +1353,8 @@
                         "flippers,cape,lamp,[$canDamage],$canDamage_off,keasy_on"
                     ],
                     "item_count": 1,
-                    "chest_unopened_img": "images/items-map/Small Key.png",
-                    "chest_opened_img": "images/items-map/Small Key Done.png"
+                    "chest_unopened_img": "images/items-map/dive.png",
+                    "chest_opened_img": "images/items-map/dive_gray.png"
                 },
                 {
                     "name": "Overhang Chest",
@@ -1378,7 +1384,9 @@
                         "gust,flippers,lamp,keasy_on",
                         "lamp,[$canDamage],$canDamage_off,cape,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Post Ice Puzzle Frozen Chest",
@@ -1388,7 +1396,9 @@
                         "gust,flippers,lamp,keasy_on",
                         "gust,cape,lamp,keasy_on,[$canDamage],$canDamage_off"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Right Path Ice Walkway Chests",
@@ -1408,7 +1418,9 @@
                         "gust,flippers,sword3,spinattack,keasy_on",
                         "lamp,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Blue Chu",
@@ -1430,7 +1442,9 @@
                         "lamp,tod_bigkey",
                         "lamp,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Dark Maze",
@@ -1496,7 +1510,9 @@
             }],
             "sections": [{
                     "name": "First Ice Block",
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/ice_block.png",
+                    "chest_opened_img": "images/items-map/ice_block_gray.png"
                 },
                 {
                     "name": "Small Key Locked Ice Block",
@@ -1504,7 +1520,9 @@
                         "[tod_smallkey:4],tod_smallkey:1",
                         "keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/ice_block.png",
+                    "chest_opened_img": "images/items-map/ice_block_gray.png"
                 },
                 {
                     "name": "Post Madderpillar Chest",
@@ -1529,8 +1547,8 @@
                         "flippers,cape,lamp,[$canDamage],$canDamage_off,keasy_on"
                     ],
                     "item_count": 1,
-                    "chest_unopened_img": "images/items-map/Small Key.png",
-                    "chest_opened_img": "images/items-map/Small Key Done.png"
+                    "chest_unopened_img": "images/items-map/dive.png",
+                    "chest_opened_img": "images/items-map/dive_gray.png"
                 },
                 {
                     "name": "Overhang Chest",
@@ -1582,7 +1600,9 @@
                         "gust,flippers,lamp,keasy_on",
                         "lamp,[$canDamage],$canDamage_off,cape,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Post Ice Puzzle Frozen Chest",
@@ -1592,7 +1612,9 @@
                         "gust,flippers,lamp,keasy_on",
                         "gust,cape,lamp,keasy_on,[$canDamage],$canDamage_off"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Right Path Ice Walkway Chests",
@@ -1612,7 +1634,9 @@
                         "gust,flippers,sword3,spinattack,keasy_on",
                         "lamp,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Blue Chu",
@@ -1634,7 +1658,9 @@
                         "lamp,tod_bigkey",
                         "lamp,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Dark Maze",
@@ -1700,7 +1726,9 @@
             }],
             "sections": [{
                     "name": "First Ice Block",
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/ice_block.png",
+                    "chest_opened_img": "images/items-map/ice_block_gray.png"
                 },
                 {
                     "name": "Small Key Locked Ice Block",
@@ -1708,7 +1736,9 @@
                         "[tod_smallkey:4],tod_smallkey:1",
                         "keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/ice_block.png",
+                    "chest_opened_img": "images/items-map/ice_block_gray.png"
                 },
                 {
                     "name": "Post Madderpillar Chest",
@@ -1733,8 +1763,8 @@
                         "flippers,cape,lamp,[$canDamage],$canDamage_off,keasy_on"
                     ],
                     "item_count": 1,
-                    "chest_unopened_img": "images/items-map/Small Key.png",
-                    "chest_opened_img": "images/items-map/Small Key Done.png"
+                    "chest_unopened_img": "images/items-map/dive.png",
+                    "chest_opened_img": "images/items-map/dive_gray.png"
                 },
                 {
                     "name": "Overhang Chest",
@@ -1764,7 +1794,9 @@
                         "gust,flippers,lamp,keasy_on",
                         "lamp,[$canDamage],$canDamage_off,cape,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Post Ice Puzzle Frozen Chest",
@@ -1774,7 +1806,9 @@
                         "gust,flippers,lamp,keasy_on",
                         "gust,cape,lamp,keasy_on,[$canDamage],$canDamage_off"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Right Path Ice Walkway Chests",
@@ -1804,7 +1838,9 @@
                         "gust,flippers,sword3,spinattack,keasy_on",
                         "lamp,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Blue Chu",
@@ -1826,7 +1862,9 @@
                         "lamp,tod_bigkey",
                         "lamp,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Dark Maze",
@@ -1892,7 +1930,9 @@
             }],
             "sections": [{
                     "name": "First Ice Block",
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/ice_block.png",
+                    "chest_opened_img": "images/items-map/ice_block_gray.png"
                 },
                 {
                     "name": "Small Key Locked Ice Block",
@@ -1900,7 +1940,9 @@
                         "[tod_smallkey:4],tod_smallkey:1",
                         "keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/ice_block.png",
+                    "chest_opened_img": "images/items-map/ice_block_gray.png"
                 },
                 {
                     "name": "Post Madderpillar Chest",
@@ -1925,8 +1967,8 @@
                         "flippers,cape,lamp,[$canDamage],$canDamage_off,keasy_on"
                     ],
                     "item_count": 1,
-                    "chest_unopened_img": "images/items-map/Small Key.png",
-                    "chest_opened_img": "images/items-map/Small Key Done.png"
+                    "chest_unopened_img": "images/items-map/dive.png",
+                    "chest_opened_img": "images/items-map/dive_gray.png"
                 },
                 {
                     "name": "Overhang Chest",
@@ -1967,8 +2009,8 @@
                         "keasy_on,flippers"
                     ],
                     "item_count": 6,
-                    "chest_unopened_img": "images/items-map/blue_rupee.png",
-                    "chest_opened_img": "images/items-map/gray_rupee.png"
+                    "chest_unopened_img": "images/items-map/dive.png",
+                    "chest_opened_img": "images/items-map/dive_gray.png"
                 },
                 {
                     "name": "Lower Water Rupees",
@@ -1979,8 +2021,8 @@
                         "keasy_on,gust,flippers"
                     ],
                     "item_count": 6,
-                    "chest_unopened_img": "images/items-map/blue_rupee.png",
-                    "chest_opened_img": "images/items-map/gray_rupee.png"
+                    "chest_unopened_img": "images/items-map/dive.png",
+                    "chest_opened_img": "images/items-map/dive_gray.png"
                 },
                 {
                     "name": "Ice Puzzle Free Chest",
@@ -2000,7 +2042,9 @@
                         "gust,flippers,lamp,keasy_on",
                         "lamp,[$canDamage],$canDamage_off,cape,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Post Ice Puzzle Frozen Chest",
@@ -2010,7 +2054,9 @@
                         "gust,flippers,lamp,keasy_on",
                         "gust,cape,lamp,keasy_on,[$canDamage],$canDamage_off"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Right Path Ice Walkway Chests",
@@ -2040,7 +2086,9 @@
                         "gust,flippers,sword3,spinattack,keasy_on",
                         "lamp,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Blue Chu",
@@ -2062,7 +2110,9 @@
                         "lamp,tod_bigkey",
                         "lamp,keasy_on"
                     ],
-                    "item_count": 1
+                    "item_count": 1,
+                    "chest_unopened_img": "images/items-map/chest_frozen.png",
+                    "chest_opened_img": "images/items-map/chest_open.png"
                 },
                 {
                     "name": "Dark Maze",
