@@ -158,7 +158,7 @@
     {
         "name": "Bingo",
         "type": "progressive",
-        "loop": false,
+        "loop": true,
         "allow_disabled": false,
         "stages": [{
                 "img": "images/options/bingo_on.png",
@@ -185,6 +185,24 @@
             {
                 "img": "images/options/weapons_on.png",
                 "codes": "weapons_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Keasy",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [{
+                "img": "images/options/keasy_on.png",
+                "codes": "keasy_off",
+                "inherit_codes": false,
+                "img_mods": "grayscale"
+            },
+            {
+                "img": "images/options/keasy_on.png",
+                "codes": "keasy_on",
                 "inherit_codes": false
             }
         ]

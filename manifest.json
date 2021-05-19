@@ -1,5 +1,5 @@
 {
-    "name": "The Minish Cap Randomizer Map Tracker",
+    "name": "CandyCrystal's TMCR tracker",
     "game_name": "Minish Cap Randomizer",
     "platform": "gba",
     "package_version": "0.6.1.1",
@@ -7,10 +7,7 @@
     "author": "CandyCrystal",
     "variants": {
         "standard": {
-            "display_name": "Standard Map Tracker"
-        },
-        "keysanity": {
-            "display_name": "Keysanity Map tracker"
+            "display_name": "Map Tracker"
         }
     }
 }

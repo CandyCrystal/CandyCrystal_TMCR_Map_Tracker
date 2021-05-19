@@ -1,7 +1,7 @@
 {
-    "name": "CandyCrystal's Tracker",
+    "name": "CandyCrystal's TMCR Tracker",
     "packages": [{
-        "name": "Minish Cap Randomizer Map Tracker - Help (F1)",
+        "name": "Minish Cap Randomizer Map Tracker",
         "author": "CandyCrystal",
         "game_name": "Minish Cap Randomizer",
         "flags": [
@@ -14,21 +14,12 @@
         "link": "https://github.com/CandyCrystal/CandyCrystal_TMCR_Map_Tracker/releases/download/v0.6.1.1/CandyCrystal_TMCR_Map_Tracker.zip",
         "documentation_url": "",
         "variants": [{
-                "name": "Standard Map Tracker",
-                "flags": [
-                    "map",
-                    "pins",
-                    "autotracker"
-                ]
-            },
-            {
-                "name": "Keysanity Map Tracker",
-                "flags": [
-                    "map",
-                    "pins",
-                    "autotracker"
-                ]
-            }
-        ]
+            "name": "Map Tracker",
+            "flags": [
+                "map",
+                "pins",
+                "autotracker"
+            ]
+        }]
     }]
 }

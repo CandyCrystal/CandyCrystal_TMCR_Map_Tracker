@@ -4,12 +4,12 @@
         "h_alignment": "center",
         "item_margin": "1,1",
         "rows": [
-            ["sword", "gust", "cane", "boomerang", "spinattack", "rockbreaker", "dwsx", ""],
-            ["shield", "mittsandfly", "lamp", "bombsremote", "fastspin", "dashattack", "cofx", "earth"],
-            ["boots", "cape", "flute", "bowandfly", "fastsplit", "downthrust", "fowx", "fire"],
-            ["carlovtingle", "ringandbracelets", "flippersandfly", "wilds", "greatspin", "rollattack", "todx", "water"],
-            ["books", "nutandshroom", "bothkeys", "clouds", "longspin", "swordbeam", "powx", "wind"],
-            ["dogbottle", "10hearts", "wallet", "falls", "sevenscrolls", "perilbeam", "rcx", ""]
+            ["sword", "gust", "cane", "boomerang", "spinattack", "rockbreaker", "earth", "dwsx", "dws_bigkey", "dws_smallkey"],
+            ["shield", "mittsandfly", "lamp", "bombsremote", "fastspin", "dashattack", "fire", "cofx", "cof_bigkey", "cof_smallkey"],
+            ["boots", "cape", "flute", "bowandfly", "fastsplit", "downthrust", "water", "fowx", "fow_bigkey", "fow_smallkey"],
+            ["carlovtingle", "ringandbracelets", "flippersandfly", "wilds", "greatspin", "rollattack", "wind", "todx", "tod_bigkey", "tod_smallkey"],
+            ["books", "nutandshroom", "bothkeys", "clouds", "longspin", "swordbeam", "rcx", "powx", "pow_bigkey", "pow_smallkey"],
+            ["dogbottle", "10hearts", "wallet", "falls", "sevenscrolls", "perilbeam", "rc_smallkey", "dhc", "dhc_bigkey", "dhc_smallkey"]
         ]
     },
     "options_popup": {
@@ -20,19 +20,7 @@
             "h_alignment": "center",
             "item_margin": "1,2",
             "rows": [
-                ["obscure_off", "fusions_open", "dhc_closed", "element4Needed", "sword5Needed", "rupees_off", "weapons_off", "bingo_off"]
-            ]
-        }
-    },
-    "options": {
-        "type": "group",
-        "header": "Settings",
-        "content": {
-            "type": "itemgrid",
-            "h_alignment": "center",
-            "item_margin": "1,2",
-            "rows": [
-                ["obscure_off", "fusions_open", "dhc_closed", "element4Needed", "sword5Needed", "rupees_off", "weapons_off", "bingo_off"]
+                ["obscure_off", "fusions_open", "dhc_closed", "element4Needed", "sword5Needed", "rupees_off", "weapons_off"]
             ]
         }
     },
@@ -69,7 +57,6 @@
                             "header": "Items",
                             "h_alignment": "stretch",
                             "dock": "top",
-
                             "content": {
                                 "type": "layout",
                                 "key": "shared_item_grid"
@@ -82,16 +69,16 @@
                             "content": {
                                 "type": "itemgrid",
                                 "h_alignment": "center",
-                                "item_margin": "8,0",
+                                "item_margin": "5,0",
                                 "rows": [
-                                    ["obscure_off", "fusions_open", "dhc_closed", "element4Needed", "sword5Needed", "rupees_off", "weapons_off", "bingo_off"]
+                                    ["obscure_off", "fusions_open", "dhc_closed", "element4Needed", "sword5Needed", "rupees_off", "weapons_off", "bingo_off", "keasy_off"]
                                 ]
                             }
                         },
                         {
                             "type": "group",
                             "width": 413,
-                            "dock": "bottom",
+                            "dock": "top",
                             "header": "Pinned Locations",
                             "content": {
                                 "type": "recentpins",
@@ -118,6 +105,14 @@
                                 }
                             },
                             {
+                                "title": "Melari's Mines",
+                                "icon": "images/options/Obscure_On.png",
+                                "content": {
+                                    "type": "map",
+                                    "maps": ["mines"]
+                                }
+                            },
+                            {
                                 "title": "Deepwood Shrine",
                                 "icon": "images/items/Gust Jar.png",
                                 "content": {
@@ -131,14 +126,6 @@
                                 "content": {
                                     "type": "map",
                                     "maps": ["cof"]
-                                }
-                            },
-                            {
-                                "title": "Melari's Mines",
-                                "icon": "images/options/Obscure_On.png",
-                                "content": {
-                                    "type": "map",
-                                    "maps": ["mines"]
                                 }
                             },
                             {
@@ -175,7 +162,7 @@
                             },
                             {
                                 "title": "Dark Hyrule Castle",
-                                "icon": "images/dungeons/Vaati.png",
+                                "icon": "images/dungeons/vaati.png",
                                 "content": {
                                     "type": "map",
                                     "maps": ["dhc"]
