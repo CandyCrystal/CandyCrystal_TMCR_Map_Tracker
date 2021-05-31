@@ -752,7 +752,7 @@ function updateSmallKeys(segment, code, address)
 	  end
       DHC_KEY_COUNT = ReadU8(segment, address)
       item.AcquiredCount = DHC_KEY_COUNT + DHC_KEY_USED
-  elseif code == "cryptkey" then
+  elseif code == "rc_smallkey" then
       RC_KEY_USED = 0
 	  if testFlag(segment, 0x2002d00, 0x80) then
 	RC_KEY_USED = RC_KEY_USED + 1
@@ -1746,7 +1746,7 @@ function updateKeys(segment)
     updateSmallKeys(segment, "tod_smallkey", 0x2002ea0)
     updateSmallKeys(segment, "pow_smallkey", 0x2002ea1)
     updateSmallKeys(segment, "dhc_smallkey", 0x2002ea2)
-    updateSmallKeys(segment, "cryptkey", 0x2002ea3)
+    updateSmallKeys(segment, "rc_smallkey", 0x2002ea3)
 
     updateSectionChestCountFromByteAndFlag(segment, "@Syrup's Hut/Witch's Item (60 Rupees)", 0x2002ea4, 0x04)
     updateSectionChestCountFromByteAndFlag(segment, "@Rem/Rem", 0x2002ea4, 0x08)

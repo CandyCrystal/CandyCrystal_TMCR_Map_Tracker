@@ -766,7 +766,7 @@
         "name": "Crypt Keys",
         "type": "consumable",
         "img": "images/items/Small Key.png",
-        "codes": "cryptkey",
+        "codes": "rc_smallkey",
         "max_quantity": 3
     },
     {

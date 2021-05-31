@@ -11,10 +11,17 @@
         ],
         "version": "0.6.1.2",
         "uid": "tmcr_maptracker_candycrystal",
-        "link": "https://github.com/CandyCrystal/CandyCrystal_TMCR_Map_Tracker/releases/download/v0.6.1.2/CandyCrystal_TMCR_Map_Tracker.zip",
+        "link": "https://github.com/CandyCrystal/CandyCrystal_TMCR_Map_Tracker/releases/download/v0.6.1.3/CandyCrystal_TMCR_Map_Tracker.zip",
         "documentation_url": "",
         "variants": [{
             "name": "Map Tracker",
+            "flags": [
+                "map",
+                "pins",
+                "autotracker"
+            ]
+        }, {
+            "name": "Horizontal Map Tracker",
             "flags": [
                 "map",
                 "pins",

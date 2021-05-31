@@ -51,13 +51,12 @@
             "dropshadow": true,
             "content": [{
                     "type": "dock",
-                    "dock": "left",
-                    "v_alignment": "stretch",
+                    "dock": "bottom",
                     "content": [{
                             "type": "group",
                             "header": "Items",
-                            "h_alignment": "stretch",
-                            "dock": "top",
+                            "dock": "left",
+                            "width": 413,
                             "content": {
                                 "type": "itemgrid",
                                 "h_alignment": "center",
@@ -75,27 +74,30 @@
                         {
                             "type": "group",
                             "header": "Settings",
-                            "dock": "bottom",
+                            "dock": "left",
                             "content": {
                                 "type": "itemgrid",
                                 "h_alignment": "center",
                                 "item_margin": "5,0",
                                 "rows": [
-                                    ["obscure_off", "fusions_open", "dhc_closed", "element4Needed", "sword5Needed", "rupees_off", "weapons_off", "bingo_off", "keasy_off"]
+                                    ["obscure_off", "weapons_off"],
+                                    ["fusions_open", "keasy_off"],
+                                    ["dhc_closed", "bingo_off"],
+                                    ["element4Needed", ""],
+                                    ["sword5Needed", ""],
+                                    ["rupees_off", ""]
                                 ]
                             }
                         },
                         {
                             "type": "group",
-                            "width": 413,
-                            "dock": "top",
+                            "dock": "left",
                             "header": "Pinned Locations",
                             "content": {
                                 "type": "recentpins",
                                 "style": "wrap",
-                                "width": 413,
                                 "v_alignment": "stretch",
-                                "orientation": "vertical",
+                                "orientation": "horizontal",
                                 "compact": true
                             }
                         }

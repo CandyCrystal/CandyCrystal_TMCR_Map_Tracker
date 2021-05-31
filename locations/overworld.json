@@ -1103,7 +1103,7 @@
                                 "name": "Buried Treasure",
                                 "item_count": 6,
                                 "chest_unopened_img": "images/items-map/mole_mitts.png",
-                                "chest_opened_img": "images/items-map/mole_mitts_gray.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                             }]
                         },
                         {
@@ -1119,7 +1119,7 @@
                                 "name": "More Buried Treasure",
                                 "item_count": 2,
                                 "chest_unopened_img": "images/items-map/mole_mitts.png",
-                                "chest_opened_img": "images/items-map/mole_mitts_gray.png",
+                                "chest_opened_img": "images/items-map/mole_mitts_gray.png"
                             }]
                         },
                         {
