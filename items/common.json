@@ -886,19 +886,19 @@
     {
         "name": "Generic Yellow Kinstone",
         "type": "toggle",
-        "img": "images/items/Generic Gold Kinstone.png",
+        "img": "images/items/Gold Kinstone.png",
         "codes": "genericyellow"
     },
     {
         "name": "Big Key",
         "type": "toggle",
-        "img": "images/items/dungeons/Big Key.png",
+        "img": "images/items/Big Key.png",
         "codes": "bigkey"
     },
     {
         "name": "Small Key",
         "type": "toggle",
-        "img": "images/items/dungeons/Small Key.png",
+        "img": "images/items/Small Key.png",
         "codes": "smallkey"
     },
     {
@@ -918,6 +918,54 @@
         "type": "toggle",
         "img": "images/items/Remote Bombs.png",
         "codes": "remotebombs"
+    },
+    {
+        "name": "Green Rupee",
+        "type": "toggle",
+        "img": "images/items/Rupee Green.png",
+        "codes": "greenrupee"
+    },
+    {
+        "name": "Blue Rupee",
+        "type": "toggle",
+        "img": "images/items/Rupee Blue.png",
+        "codes": "bluerupee"
+    },
+    {
+        "name": "Red Rupee",
+        "type": "toggle",
+        "img": "images/items/Rupee Red.png",
+        "codes": "redrupee"
+    },
+    {
+        "name": "Big Green Rupee",
+        "type": "toggle",
+        "img": "images/items/Rupee Green Big.png",
+        "codes": "biggreenrupee"
+    },
+    {
+        "name": "Big Blue Rupee",
+        "type": "toggle",
+        "img": "images/items/Rupee Blue Big.png",
+        "codes": "bigbluerupee"
+    },
+    {
+        "name": "Big Red Rupee",
+        "type": "toggle",
+        "img": "images/items/Rupee Red Big.png",
+        "codes": "bigredrupee"
+    },
+    {
+        "name": "Bomb Refill",
+        "type": "toggle",
+        "img": "images/items/Bomb Refill.png",
+        "codes": "bombrefill"
+    },
+    {
+        "name": "Arrow Refill",
+        "type": "toggle",
+        "img": "images/items/Arrow Refill.png",
+        "codes": "arrowrefill"
     },
     {
         "name": "Figurine",

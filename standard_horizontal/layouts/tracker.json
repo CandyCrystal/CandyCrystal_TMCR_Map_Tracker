@@ -38,8 +38,9 @@
                 ["dogfood", "grip", "carlov", "jabber", "llrkey", "genericyellow"],
                 ["bottle", "bracelets", "trophy", "mushroom", "gravekey", "bigkey"],
                 ["10hearts", "heartpiece", "sevenscrolls", "flippers", "butterfly", "smallkey"],
-                ["earth", "fire", "water", "wind", "books", "figurine"]
-
+                ["earth", "fire", "water", "wind", "books", "figurine"],
+                ["greenrupee", "bluerupee", "redrupee", "biggreenrupee", "bigbluerupee", "bigredrupee"],
+                ["arrowrefill", "bombrefill", "", "", "", ""]
             ]
         }
     },
