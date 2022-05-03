@@ -1,9 +1,11 @@
-[{
+[
+    {
         "name": "Obscure Locations",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
-        "stages": [{
+        "stages": [
+            {
                 "img": "images/options/Obscure_Off.png",
                 "codes": "obscure_off",
                 "inherit_codes": false
@@ -20,7 +22,8 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
-        "stages": [{
+        "stages": [
+            {
                 "img": "images/options/Kinsanity_Open.png",
                 "codes": "fusions_open",
                 "inherit_codes": false
@@ -38,7 +41,8 @@
         "loop": true,
         "allow_disabled": false,
         "inherit_codes": false,
-        "stages": [{
+        "stages": [
+            {
                 "img": "images/options/dhc_closed.png",
                 "codes": "dhc_closed",
                 "inherit_codes": false
@@ -65,7 +69,8 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
-        "stages": [{
+        "stages": [
+            {
                 "img": "images/options/Wind Element4.png",
                 "inherit_codes": false,
                 "codes": "element4Needed"
@@ -97,7 +102,8 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
-        "stages": [{
+        "stages": [
+            {
                 "img": "images/items/Four Sword.png",
                 "inherit_codes": false,
                 "codes": "sword5Needed"
@@ -134,7 +140,8 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
-        "stages": [{
+        "stages": [
+            {
                 "img": "images/options/RupeeON.png",
                 "codes": "rupees_on",
                 "inherit_codes": false
@@ -160,7 +167,8 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
-        "stages": [{
+        "stages": [
+            {
                 "img": "images/options/bingo_on.png",
                 "codes": "bingo_off",
                 "inherit_codes": false,
@@ -178,7 +186,8 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
-        "stages": [{
+        "stages": [
+            {
                 "img": "images/options/weapons_off.png",
                 "codes": "weapons_off"
             },
@@ -194,7 +203,8 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
-        "stages": [{
+        "stages": [
+            {
                 "img": "images/options/keasy_on.png",
                 "codes": "keasy_off",
                 "inherit_codes": false,
