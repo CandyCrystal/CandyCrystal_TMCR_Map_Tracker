@@ -1,32 +1,61 @@
 {
     "name": "CandyCrystal's TMCR Tracker",
-    "packages": [{
-        "name": "Minish Cap Randomizer Map Tracker",
-        "author": "CandyCrystal",
-        "game_name": "Minish Cap Randomizer",
-        "flags": [
-            "map",
-            "pins",
-            "autotracker"
-        ],
-        "version": "0.6.1.5",
-        "uid": "tmcr_maptracker_candycrystal",
-        "link": "https://github.com/CandyCrystal/CandyCrystal_TMCR_Map_Tracker/releases/download/v0.6.1.5/CandyCrystal_TMCR_Map_Tracker.zip",
-        "documentation_url": "",
-        "variants": [{
-            "name": "Map Tracker",
+    "packages": [
+        {
+            "name": "Minish Cap Randomizer Map Tracker [TMCR 1.0.0]",
+            "author": "CandyCrystal",
+            "game_name": "Minish Cap Randomizer",
             "flags": [
                 "map",
                 "pins",
                 "autotracker"
+            ],
+            "version": "1.0.0.0",
+            "uid": "candycrystal_tmcr_tracker",
+            "link": "https://github.com/CandyCrystal/tmcr-tracker/releases/download/v1.0.0.0/candycrystal-tmcr-tracker-1.0.0.0.zip",
+            "documentation_url": "",
+            "variants": [
+                {
+                    "name": "Map Tracker",
+                    "flags": [
+                        "map",
+                        "pins",
+                        "autotracker"
+                    ]
+                }
             ]
-        }, {
-            "name": "Horizontal Map Tracker",
+        },
+        {
+            "name": "[OUTDATED] Minish Cap Randomizer Map Tracker [TMCR 0.6.1]",
+            "author": "CandyCrystal",
+            "game_name": "Minish Cap Randomizer",
             "flags": [
                 "map",
                 "pins",
                 "autotracker"
+            ],
+            "version": "0.6.1.5",
+            "uid": "tmcr_maptracker_candycrystal",
+            "link": "https://github.com/CandyCrystal/CandyCrystal_TMCR_Map_Tracker/releases/download/v0.6.1.5/CandyCrystal_TMCR_Map_Tracker.zip",
+            "documentation_url": "",
+            "variants": [
+                {
+                    "name": "Map Tracker",
+                    "flags": [
+                        "map",
+                        "pins",
+                        "autotracker"
+                    ]
+                },
+                {
+                    "name": "Horizontal Map Tracker",
+                    "flags": [
+                        "map",
+                        "pins",
+                        "autotracker"
+                    ]
+                }
             ]
-        }]
-    }]
+        }
+    ]
 }
